@@ -26,7 +26,7 @@ function Navbar() {
             onClick={() => {
               (navigate("/home"), setClickedbtn("home"));
             }}
-          > new valid chanduru
+          >
             Home
           </button>
 
