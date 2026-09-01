@@ -31,16 +31,33 @@ function Login() {
     //   }
 
     // Fake token for frontend project
-    localStorage.setItem("access_token", "pgfinder_token");
-    // localStorage.setItem("user", JSON.stringify(user));
 
-    navigate("/home", { replace: true });
+    try {
+      const response = await fetch(
+        "https://pgfinder-server.onrender.com/api/data/",
+      );
 
-    // catch (error) {
-    //   setError("Unable to connect to server");
-    //   console.error(error);
-    //   setIsLoading(false);
-    // }
+      const data = await response.json();
+
+      const user = data.users.find(
+        (u) => u.email === email && u.password === password,
+      );
+
+      if (!user) {
+        setError("Invalid email or password");
+        setIsLoading(false);
+        return;
+      }
+      localStorage.setItem("access_token", "pgfinder_token");
+      localStorage.setItem("user", JSON.stringify(user));
+
+      navigate("/home", { replace: true });
+      v;
+    } catch (error) {
+      setError("Unable to connect to server");
+      console.error(error);
+      setIsLoading(false);
+    }
   };
 
   return (

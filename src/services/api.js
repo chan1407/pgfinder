@@ -1,53 +1,37 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://pgfinder-server.onrender.com";
 
 export const getPGs = async () => {
-  const response = await fetch(`${API_URL}/pgs`);
+  const response = await fetch(`${API_URL}/api/data/`);
 
   if (!response.ok) {
     throw new Error("Failed to fetch PGs");
   }
 
-  return response.json();
+  const data = await response.json();
+
+  return data.pgs;
 };
 
 export const getPGById = async (id) => {
-  const response = await fetch(`${API_URL}/pgs/${id}`);
+  const pgs = await getPGs();
 
-  if (!response.ok) {
+  const pg = pgs.find((item) => String(item.id) === String(id));
+
+  if (!pg) {
     throw new Error("PG not found");
   }
 
-  return response.json();
+  return pg;
 };
 
-export const createPG = async (pgData) => {
-  const response = await fetch(`${API_URL}/pgs`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(pgData),
-  });
+export const getUsers = async () => {
+  const response = await fetch(`${API_URL}/api/data/`);
 
-  return response.json();
-};
+  if (!response.ok) {
+    throw new Error("Failed to fetch users");
+  }
 
-export const updatePG = async (id, pgData) => {
-  const response = await fetch(`${API_URL}/pgs/${id}`, {
-    method: "PUT",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(pgData),
-  });
+  const data = await response.json();
 
-  return response.json();
-};
-
-export const deletePG = async (id) => {
-  const response = await fetch(`${API_URL}/pgs/${id}`, {
-    method: "DELETE",
-  });
-
-  return response.json();
+  return data.users;
 };
