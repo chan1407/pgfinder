@@ -3,7 +3,7 @@ import { useState } from "react";
 function Profile() {
   const storedUser = localStorage.getItem("user");
 
-  const user = storedUser
+  let user = storedUser
     ? JSON.parse(storedUser)
     : {
         name: "Guest User",
