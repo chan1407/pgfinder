@@ -13,7 +13,7 @@ function Footer() {
         <div className="footer-links">
           <h4>Quick Links</h4>
 
-          <p>Home hi</p>
+          <p>Home</p>
           <p>Find PG</p>
           <p>Favourites</p>
         </div>
