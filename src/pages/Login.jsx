@@ -15,31 +15,32 @@ function Login() {
     setError("");
     setIsLoading(true);
 
-    try {
-      const response = await fetch(
-        `http://localhost:3000/users?email=${email}`,
-      );
+    // try {
+    //   const response = await fetch(
+    //     `http://localhost:3000/users?email=${email}`,
+    //   );
 
-      const users = await response.json();
+    //   const users = await response.json();
 
-      const user = users.find((u) => u.password === password);
+    //   const user = users.find((u) => u.password === password);
 
-      if (!user) {
-        setError("Invalid email or password");
-        setIsLoading(false);
-        return;
-      }
+    //   if (!user) {
+    //     setError("Invalid email or password");
+    //     setIsLoading(false);
+    //     return;
+    //   }
 
-      // Fake token for frontend project
-      localStorage.setItem("access_token", "pgfinder_token");
-      localStorage.setItem("user", JSON.stringify(user));
+    // Fake token for frontend project
+    localStorage.setItem("access_token", "pgfinder_token");
+    // localStorage.setItem("user", JSON.stringify(user));
 
-      navigate("/home", { replace: true });
-    } catch (error) {
-      setError("Unable to connect to server");
-      console.error(error);
-      setIsLoading(false);
-    }
+    navigate("/home", { replace: true });
+
+    // catch (error) {
+    //   setError("Unable to connect to server");
+    //   console.error(error);
+    //   setIsLoading(false);
+    // }
   };
 
   return (
@@ -92,7 +93,7 @@ function Login() {
                 />
               </div>
 
-              {error && <p className="error">{error}</p>}
+              {/* {error && <p className="error">{error}</p>} */}
 
               <button type="submit" disabled={isLoading}>
                 {isLoading ? "Logging in..." : "Login"}
