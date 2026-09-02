@@ -1,4 +1,7 @@
+import { Navigate, useNavigate } from "react-router-dom";
+
 function About() {
+  const navigate = useNavigate();
   return (
     <div className="about-page">
       {/* Hero Section */}
@@ -19,7 +22,9 @@ function About() {
 
           <button
             className="about-btn"
-            onClick={() => (window.location.href = "/find-pg")}
+            onClick={() => {
+              navigate("/find-pg");
+            }}
           >
             Explore PGs
           </button>
@@ -152,16 +157,12 @@ function About() {
         </div>
       </section>
 
-      {/* Bottom CTA */}
       <section className="about-cta">
         <h2>Ready to Find Your Perfect PG?</h2>
 
         <p>Start exploring comfortable and affordable accommodations today.</p>
 
-        <button
-          className="about-btn"
-          onClick={() => (window.location.href = "/find-pg")}
-        >
+        <button className="about-btn" onClick={() => navigate("/find-pg")}>
           Find a PG
         </button>
       </section>

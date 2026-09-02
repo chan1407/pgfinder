@@ -95,8 +95,6 @@ function Home() {
         </div>
       </section>
 
-      {/* LOCATIONS */}
-
       <section className="section-container">
         <div className="section-heading">
           <div>
@@ -171,7 +169,7 @@ function Home() {
             just one search away.
           </h2>
 
-          <button onClick={() => router("/pgs")}>Explore PGs →</button>
+          <button onClick={() => router("/find-pg")}>Explore PGs →</button>
         </div>
 
         <div className="cta-icon">🏠</div>
