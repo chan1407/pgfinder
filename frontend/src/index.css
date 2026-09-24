@@ -1766,3 +1766,308 @@ a {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* =========================
+   CONTACT PG OWNER
+========================= */
+
+.contact-owner-page {
+  min-height: calc(100vh - 76px);
+  padding: 50px 24px 80px;
+  background: #f7f8fc;
+}
+
+.contact-owner-container {
+  max-width: 850px;
+  margin: auto;
+}
+
+/* Back Button */
+
+.contact-owner-back {
+  margin-bottom: 25px;
+  background: transparent;
+  color: #635bff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.contact-owner-back:hover {
+  color: #5048e5;
+}
+
+/* Header */
+
+.contact-owner-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-owner-header span {
+  color: #635bff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.contact-owner-header h1 {
+  margin-top: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 36px;
+  color: #171d33;
+}
+
+.contact-owner-header p {
+  margin-top: 10px;
+  color: #737b8d;
+  font-size: 14px;
+}
+
+/* PG Summary */
+
+.contact-pg-summary {
+  padding: 25px;
+  margin-bottom: 20px;
+  background: white;
+  border: 1px solid #e8eaf0;
+  border-radius: 16px;
+  box-shadow: 0 12px 25px rgba(50, 54, 91, 0.06);
+}
+
+.contact-pg-summary h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 22px;
+  color: #171d33;
+}
+
+.contact-pg-location {
+  margin-top: 7px;
+  color: #737b8d;
+  font-size: 14px;
+}
+
+.contact-pg-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.contact-pg-info span {
+  padding: 7px 11px;
+  background: #f0efff;
+  color: #5951d8;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Owner Card */
+
+.contact-owner-card {
+  padding: 30px;
+  background: white;
+  border: 1px solid #e8eaf0;
+  border-radius: 16px;
+  box-shadow: 0 12px 25px rgba(50, 54, 91, 0.06);
+}
+
+.contact-owner-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #eef0f4;
+}
+
+.contact-owner-avatar {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  background: #eeedff;
+  border-radius: 12px;
+  font-size: 23px;
+}
+
+.contact-owner-title h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 21px;
+}
+
+.contact-owner-title p {
+  margin-top: 4px;
+  color: #737b8d;
+  font-size: 13px;
+}
+
+/* Owner Details */
+
+.contact-owner-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 25px 0;
+}
+
+.contact-owner-detail {
+  padding: 16px;
+  background: #f7f8fc;
+  border-radius: 10px;
+}
+
+.contact-owner-detail-icon {
+  font-size: 20px;
+}
+
+.contact-owner-detail small {
+  display: block;
+  margin-top: 8px;
+  color: #858c9b;
+  font-size: 11px;
+}
+
+.contact-owner-detail strong {
+  display: block;
+  margin-top: 4px;
+  color: #20283b;
+  font-size: 13px;
+  word-break: break-word;
+}
+
+/* Contact Buttons */
+
+.contact-owner-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding-top: 22px;
+  border-top: 1px solid #eef0f4;
+}
+
+.contact-owner-action {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  border-radius: 9px;
+  transition: 0.2s;
+}
+
+.contact-owner-action span {
+  font-size: 20px;
+}
+
+.contact-owner-action strong {
+  display: block;
+  font-size: 13px;
+}
+
+.contact-owner-action small {
+  display: block;
+  margin-top: 3px;
+  opacity: 0.85;
+  font-size: 10px;
+}
+
+.contact-owner-call {
+  background: #16a34a;
+}
+
+.contact-owner-call:hover {
+  background: #15803d;
+  transform: translateY(-2px);
+}
+
+.contact-owner-email {
+  background: #635bff;
+}
+
+.contact-owner-email:hover {
+  background: #5048e5;
+  transform: translateY(-2px);
+}
+
+.contact-owner-whatsapp {
+  background: #22c55e;
+}
+
+.contact-owner-whatsapp:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+}
+
+/* Safety Note */
+
+.contact-owner-safety {
+  margin-top: 18px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: 10px;
+  color: #9a3412;
+  font-size: 12px;
+}
+
+/* Loading */
+
+.contact-owner-loading {
+  min-height: 500px;
+  display: grid;
+  place-items: center;
+  color: #635bff;
+  font-weight: 700;
+}
+
+/* Error */
+
+.contact-owner-error {
+  max-width: 450px;
+  margin: 80px auto;
+  padding: 35px;
+  text-align: center;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(35, 39, 70, 0.08);
+}
+
+.contact-owner-error h2 {
+  margin-bottom: 18px;
+  color: #ef4444;
+}
+
+.contact-owner-error button {
+  padding: 11px 20px;
+  background: #635bff;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+/* Contact Responsive */
+
+@media (max-width: 700px) {
+  .contact-owner-page {
+    padding: 35px 18px 60px;
+  }
+
+  .contact-owner-header h1 {
+    font-size: 29px;
+  }
+
+  .contact-owner-card {
+    padding: 22px;
+  }
+
+  .contact-owner-details {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-owner-actions {
+    grid-template-columns: 1fr;
+  }
+}

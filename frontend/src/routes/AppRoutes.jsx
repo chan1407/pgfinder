@@ -7,6 +7,7 @@ import PGDetails from "../pages/PGDetails";
 import Favorites from "../pages/Favourites";
 import About from "../pages/About";
 import Profile from "../pages/Profile";
+import ContactPGOwner from "../pages/ContactPGOwner";
 
 import AuthGuard from "../components/AuthGuard";
 import MainLayout from "../layouts/MainLayout";
@@ -24,6 +25,8 @@ function AppRoutes() {
           <Route path="/find-pg" element={<PGList />} />
 
           <Route path="/pg/:id" element={<PGDetails />} />
+
+          <Route path="/contact-pg-owner/:id" element={<ContactPGOwner />} />
 
           <Route path="/favorites" element={<Favorites />} />
 

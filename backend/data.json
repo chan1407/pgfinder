@@ -10,6 +10,9 @@
       "gender": "Male",
       "rating": 4.3,
       "availableRooms": 4,
+      "ownerName": "Rajesh Kumar",
+      "ownerPhone": "9876500001",
+      "ownerEmail": "rajesh.srisai@example.com",
       "facilities": ["WiFi", "Food", "AC", "Parking"],
       "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=80",
       "description": "Comfortable and spacious PG accommodation in Velachery with excellent facilities for students and working professionals."
@@ -24,6 +27,9 @@
       "gender": "Female",
       "rating": 4.6,
       "availableRooms": 2,
+      "ownerName": "Priya Sharma",
+      "ownerPhone": "9876500002",
+      "ownerEmail": "priya.greennest@example.com",
       "facilities": ["WiFi", "Food", "Laundry", "Security"],
       "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
       "description": "Safe and modern accommodation near Guindy with easy access to offices, metro and public transport."
@@ -38,6 +44,9 @@
       "gender": "Male",
       "rating": 4.1,
       "availableRooms": 8,
+      "ownerName": "Suresh Raj",
+      "ownerPhone": "9876500003",
+      "ownerEmail": "suresh.royalstay@example.com",
       "facilities": ["WiFi", "Food", "Parking", "CCTV"],
       "image": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=900&q=80",
       "description": "Affordable PG near Chennai OMR IT corridor, suitable for students and working professionals."
@@ -52,6 +61,9 @@
       "gender": "Female",
       "rating": 4.7,
       "availableRooms": 3,
+      "ownerName": "Anitha Krishnan",
+      "ownerPhone": "9876500004",
+      "ownerEmail": "anitha.urbancomfort@example.com",
       "facilities": ["WiFi", "AC", "Food", "Laundry"],
       "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
       "description": "Premium PG accommodation located in the heart of T Nagar with modern amenities."
@@ -66,6 +78,9 @@
       "gender": "Male",
       "rating": 4.2,
       "availableRooms": 5,
+      "ownerName": "Vijay Anand",
+      "ownerPhone": "9876500005",
+      "ownerEmail": "vijay.metroview@example.com",
       "facilities": ["WiFi", "Food", "Parking", "Gym"],
       "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=900&q=80",
       "description": "Well-connected PG in Porur with comfortable rooms and useful amenities."
@@ -80,6 +95,9 @@
       "gender": "Unisex",
       "rating": 4.0,
       "availableRooms": 10,
+      "ownerName": "Karthik Mohan",
+      "ownerPhone": "9876500006",
+      "ownerEmail": "karthik.happyhomes@example.com",
       "facilities": ["WiFi", "Food", "Parking", "CCTV"],
       "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=900&q=80",
       "description": "Budget-friendly PG option near Tambaram railway station and major colleges."
@@ -94,6 +112,9 @@
       "gender": "Male",
       "rating": 4.8,
       "availableRooms": 2,
+      "ownerName": "Aravind Kumar",
+      "ownerPhone": "9876500007",
+      "ownerEmail": "aravind.eliteliving@example.com",
       "facilities": ["WiFi", "AC", "Food", "Gym", "Parking"],
       "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
       "description": "Premium single-room PG with modern interiors and complete amenities."
@@ -108,6 +129,9 @@
       "gender": "Unisex",
       "rating": 4.4,
       "availableRooms": 6,
+      "ownerName": "Manoj Kumar",
+      "ownerPhone": "9876500008",
+      "ownerEmail": "manoj.sunrise@example.com",
       "facilities": ["WiFi", "Food", "AC", "Laundry"],
       "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80",
       "description": "Modern PG near major IT parks in OMR with comfortable shared rooms."

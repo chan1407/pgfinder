@@ -59,6 +59,10 @@ function PGDetails() {
     );
   }
 
+  const handleContactPGOwner = () => {
+    router(`/contact-pg-owner/${id}`);
+  };
+
   return (
     <div className="details-page">
       <button className="back-btn" onClick={() => router(-1)}>
@@ -135,7 +139,9 @@ function PGDetails() {
           </div>
         </div>
 
-        <button className="contact-btn">Contact PG Owner</button>
+        <button className="contact-btn" onClick={handleContactPGOwner}>
+          Contact PG Owner
+        </button>
       </div>
     </div>
   );
