@@ -1,0 +1,125 @@
+{
+  "pgs": [
+    {
+      "id": 1,
+      "name": "Sri Sai Luxury PG",
+      "location": "Velachery",
+      "city": "Chennai",
+      "rent": 8000,
+      "roomType": "Double",
+      "gender": "Male",
+      "rating": 4.3,
+      "availableRooms": 4,
+      "facilities": ["WiFi", "Food", "AC", "Parking"],
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=80",
+      "description": "Comfortable and spacious PG accommodation in Velachery with excellent facilities for students and working professionals."
+    },
+    {
+      "id": 2,
+      "name": "Green Nest PG",
+      "location": "Guindy",
+      "city": "Chennai",
+      "rent": 9500,
+      "roomType": "Single",
+      "gender": "Female",
+      "rating": 4.6,
+      "availableRooms": 2,
+      "facilities": ["WiFi", "Food", "Laundry", "Security"],
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+      "description": "Safe and modern accommodation near Guindy with easy access to offices, metro and public transport."
+    },
+    {
+      "id": 3,
+      "name": "Royal Stay PG",
+      "location": "OMR",
+      "city": "Chennai",
+      "rent": 6500,
+      "roomType": "Triple",
+      "gender": "Male",
+      "rating": 4.1,
+      "availableRooms": 8,
+      "facilities": ["WiFi", "Food", "Parking", "CCTV"],
+      "image": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=900&q=80",
+      "description": "Affordable PG near Chennai OMR IT corridor, suitable for students and working professionals."
+    },
+    {
+      "id": 4,
+      "name": "Urban Comfort PG",
+      "location": "T Nagar",
+      "city": "Chennai",
+      "rent": 11000,
+      "roomType": "Single",
+      "gender": "Female",
+      "rating": 4.7,
+      "availableRooms": 3,
+      "facilities": ["WiFi", "AC", "Food", "Laundry"],
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+      "description": "Premium PG accommodation located in the heart of T Nagar with modern amenities."
+    },
+    {
+      "id": 5,
+      "name": "Metro View PG",
+      "location": "Porur",
+      "city": "Chennai",
+      "rent": 7000,
+      "roomType": "Double",
+      "gender": "Male",
+      "rating": 4.2,
+      "availableRooms": 5,
+      "facilities": ["WiFi", "Food", "Parking", "Gym"],
+      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=900&q=80",
+      "description": "Well-connected PG in Porur with comfortable rooms and useful amenities."
+    },
+    {
+      "id": 6,
+      "name": "Happy Homes PG",
+      "location": "Tambaram",
+      "city": "Chennai",
+      "rent": 5500,
+      "roomType": "Triple",
+      "gender": "Unisex",
+      "rating": 4.0,
+      "availableRooms": 10,
+      "facilities": ["WiFi", "Food", "Parking", "CCTV"],
+      "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=900&q=80",
+      "description": "Budget-friendly PG option near Tambaram railway station and major colleges."
+    },
+    {
+      "id": 7,
+      "name": "Elite Living PG",
+      "location": "Velachery",
+      "city": "Chennai",
+      "rent": 12500,
+      "roomType": "Single",
+      "gender": "Male",
+      "rating": 4.8,
+      "availableRooms": 2,
+      "facilities": ["WiFi", "AC", "Food", "Gym", "Parking"],
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
+      "description": "Premium single-room PG with modern interiors and complete amenities."
+    },
+    {
+      "id": 8,
+      "name": "Sunrise Residency",
+      "location": "OMR",
+      "city": "Chennai",
+      "rent": 8500,
+      "roomType": "Double",
+      "gender": "Unisex",
+      "rating": 4.4,
+      "availableRooms": 6,
+      "facilities": ["WiFi", "Food", "AC", "Laundry"],
+      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80",
+      "description": "Modern PG near major IT parks in OMR with comfortable shared rooms."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Arun Kumar",
+      "email": "arun@example.com",
+      "password": "123456",
+      "phone": "9876543210"
+    }
+  ]
+}
